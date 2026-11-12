@@ -1,0 +1,47 @@
+.accordion-row{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 200px;
+   
+ 
+ 
+}
+.accordion-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.accordion-img{
+    width: auto;
+    height: 150px;
+}
+.accordion-page{
+    width: 600px;
+}
+.accordion-summary{
+display: flex !important;
+    justify-content: space-between !important; 
+    align-items: center !important;
+    gap: 40px !important;
+    
+}
+.item-price{
+    color: yellowgreen;
+}
+.item-price {
+    
+  margin-left: auto !important;
+  margin-right: 20px !important;
+  white-space: nowrap;
+ font-weight: 700 !important;
+}
+.cart-summery{
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 12px;
+}

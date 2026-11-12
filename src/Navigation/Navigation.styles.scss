@@ -1,0 +1,58 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(41, 165, 219);
+    padding-top: 20px;
+    padding: 12px;
+    align-items: center;
+    font-size: larger;
+    a {
+      text-decoration: none;
+      list-style: none;
+      color: white;
+    }
+}
+.nav-brand{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2px ;
+  margin-left: 12px;
+  
+}
+.dark-mode .nav-bar{
+  background-color: #e65100;
+
+}
+
+.cart-text{
+  display: flex !important;
+  align-items: center;
+gap: 10px !important;
+animation: blink 3s ease-in-out infinite;
+
+}
+
+@keyframes blink{
+ 0%, 100%{
+    opacity: 1;;
+  }
+  50%{
+    opacity: 0.01;
+  }
+}
+
+.dark-mode .cart-text{
+  animation: blink 3s ease-in-out infinite;
+
+}
+
+@keyframes darkblink{
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.01;
+  }
+}
