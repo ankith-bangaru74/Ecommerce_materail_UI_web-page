@@ -34,7 +34,7 @@ function Sidebar({ mode, setMode }) {
 
   return (
     <Box className="sidebar-page">
-      <Typography variant="h5">Online Store</Typography>
+      <Typography className="main-title" variant="h5">Online Store</Typography>
 
       <Typography >
         <Link className="page-title" to="/">Home</Link>
